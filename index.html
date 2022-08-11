@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+  </head>
+  <style>
+    .calcolatrice {
+      height: 800px;
+      width: 445px;
+      border: solid 2px black;
+      padding: 20px;
+    }
+    .numeri,
+    .operazioni,
+    .del,
+    .uguale,
+    .ac {
+      display: inline-block;
+      height: 80px;
+      width: 80px;
+      border: solid 2px black;
+      margin: 2px;
+      padding: 10px;
+      font-size: 40px;
+    }
+    .uguale,
+    .ac {
+      display: inline-block;
+      height: 80px;
+      width: 192px;
+      border: solid 2px black;
+      margin: 2px;
+      padding: 10px;
+      font-size: 40px;
+    }
+    .display1,
+    .display2 {
+      display: inline-block;
+      height: 80px;
+      width: 417px;
+      border: solid 2px black;
+      margin: 2px;
+      padding: 10px;
+      font-size: 70px;
+      text-align: right;
+    }
+  </style>
+
+  <body>
+    <div class="calcolatrice">
+      <div class="display2"></div>
+      <div class="display1"></div>
+
+      <div class="ac">AC</div>
+      <div class="del">Del</div>
+      <div class="operazioni">÷</div>
+      <br />
+      <div class="numeri">7</div>
+      <div class="numeri">8</div>
+      <div class="numeri">9</div>
+      <div class="operazioni">*</div>
+      <br />
+      <div class="numeri">4</div>
+      <div class="numeri">5</div>
+      <div class="numeri">6</div>
+      <div class="operazioni">+</div>
+      <br />
+      <div class="numeri">1</div>
+      <div class="numeri">2</div>
+      <div class="numeri">3</div>
+      <div class="operazioni">-</div>
+      <br />
+      <div class="numeri">0</div>
+      <div class="numeri">.</div>
+      <div class="uguale">=</div>
+    </div>
+
+    <script type="module" src="main.js"></script>
+    <!-- <script type="module" src="prova.js"></script> -->
+  </body>
+</html>
